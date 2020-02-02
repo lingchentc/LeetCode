@@ -8,7 +8,6 @@ namespace LeetCode
         {
 
             Solution s = new Solution();
-            
             Console.WriteLine("Hello World");
         }
     }
