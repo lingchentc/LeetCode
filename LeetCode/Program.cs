@@ -8,6 +8,7 @@ namespace LeetCode
         {
 
             Solution s = new Solution();
+            s.IsValid("{[]}");
             Console.WriteLine("Hello World");
         }
     }
