@@ -10,7 +10,7 @@ namespace LeetCode
 
             Solution s = new Solution();
 
-            s.RemoveDuplicates(new int[] { 1,1,2});
+            var a = s.Divide(2147483647,2);
             Console.WriteLine("Hello World");
         }
     }
