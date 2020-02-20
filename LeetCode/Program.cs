@@ -10,7 +10,7 @@ namespace LeetCode
 
             Solution s = new Solution();
 
-            var a = s.Divide(2147483647,2);
+            s.NextPermutation(new int[] { 1, 2, 3 });
             Console.WriteLine("Hello World");
         }
     }
