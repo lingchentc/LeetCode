@@ -10,7 +10,7 @@ namespace LeetCode
 
             Solution s = new Solution();
 
-            s.LongestValidParentheses(")()())");
+            s.SearchRange(new int[]{ 1,4},4);
             Console.WriteLine("Hello World");
         }
     }
