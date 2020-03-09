@@ -10,7 +10,7 @@ namespace LeetCode
 
             Solution s = new Solution();
 
-            s.SearchRange(new int[]{ 1,4},4);
+            s.Trap(new int[]{5,4,1,2});
             Console.WriteLine("Hello World");
         }
     }

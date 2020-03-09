@@ -5,4 +5,18 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="001-050\008字符串转换整数 %2528atoi%2529\**" />
+    <Compile Remove="001-050\028实现 strStr%2528%2529\**" />
+    <EmbeddedResource Remove="001-050\008字符串转换整数 %2528atoi%2529\**" />
+    <EmbeddedResource Remove="001-050\028实现 strStr%2528%2529\**" />
+    <None Remove="001-050\008字符串转换整数 %2528atoi%2529\**" />
+    <None Remove="001-050\028实现 strStr%2528%2529\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="001-050\008字符串转换整数 %28atoi%29\MyAtoi.cs" />
+    <Compile Include="001-050\028实现 strStr%28%29\StrStr.cs" />
+  </ItemGroup>
+
 </Project>
