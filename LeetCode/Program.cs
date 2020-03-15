@@ -8,9 +8,9 @@ namespace LeetCode
         static void Main(string[] args)
         {
 
-            Solution2 s = new Solution2();
+            Solution s = new Solution();
 
-            Console.WriteLine(s.IsMatch("acdcb","a*c?b"));
+            Console.WriteLine(s.Jump(new int[] { 2, 3, 1, 1, 4}));
             Console.WriteLine("Hello World");
         }
     }
